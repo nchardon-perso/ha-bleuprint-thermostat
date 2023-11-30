@@ -1,3 +1,5 @@
+# Ce bleuprint fait référence à celui créé par argonote199 sur sur Github
+# https://github.com/argonaute199/chauffage-home-assistant/blob/main/blueprint/chauffage_pilotage.yaml
 blueprint:
   name: Thermostat TPI
   description: Thermostat TPI (Time Propertional & Integral)
@@ -75,7 +77,7 @@ blueprint:
           domain:
           - light
           multiple: false
-  source_url: https://github.com/argonaute199/chauffage-home-assistant/blob/main/blueprint/thermostat_tpi.yaml
+  source_url: https://github.com/nchardon-perso/ha-bleuprint-thermostat/blob/main/bleuprint/chauffage-pilotage.yaml
 variables:
   coeff_c: !input coeff_c
   coeff_t: !input coeff_t
